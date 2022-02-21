@@ -33,13 +33,9 @@ body {
 /*header*/
 
 .header-info {
-    font-size: 14px;
-    line-height: 17px;
-    color: var(--font-color);
     justify-content: space-between;
     margin-top: 17px;
     margin-bottom: 17px;
-    filter: opacity(0.7);
 }
 
 .header-info-left {
@@ -87,14 +83,16 @@ body {
     border-radius: 5px;
 }
 
+/*slider*/
+
 .slider {
+    position: relative;
     justify-content: space-between;
 }
 
 .truck-slider {
     margin-right: -165px;
     margin-left: -165px;
-
 }
 .slider-header {
     width: 540px;
@@ -114,6 +112,101 @@ body {
     text-decoration: none;
     border-radius: 8px;
     max-width:fit-content;
+}
+
+/*CARD-SERVICE*/
+
+/*card-spare*/
+
+.card {
+    align-items: center;
+    padding: 29px 197px 58px 197px;
+    row-gap: 48px;
+}
+
+.card-header {
+    align-items: center;
+    row-gap: 18px;
+}
+
+.text-card-head {
+    text-align: center;
+    width: 648px;
+    height: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card-text {
+    width: 540px;
+    height: 44px;
+    text-align: center;
+}
+
+.card-service {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 36px;
+    row-gap: 32px;
+}
+
+.card-item {
+    position: relative;
+    width: 505px;
+    height: 287px;
+    background-color: var(--bg-card-color);
+    padding: 25px 0px 0px 28px;
+    border-radius: 9px;
+}
+
+.card-info {
+    position: absolute;
+    left: 28px;
+    row-gap: 15px;
+}
+
+.item-header {
+    width: 366px;
+    height: 58px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.item-text {
+    width: 253px;
+    height: 86px;
+}
+
+.spareparts-img {
+    right: 0;
+    position: absolute;
+}
+
+/*card-washing*/
+
+.text-washing {
+    width: 222px;
+}
+
+.img-washing {
+    margin-top: 47px;
+}
+
+/*card-accessories*/
+
+.header-access {
+    width: 249px;
+}
+
+.img-access {
+    margin-bottom: 20px;
+}
+
+/*card-oil*/
+
+.img-oil {
+    margin-top: 73px;
+    margin-bottom: 15px;
 }
 
 /*fonts*/
