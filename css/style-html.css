@@ -16,7 +16,7 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: auto;
     background-color: var(--bg-white-color);
     width: 1440px;
     padding: 0px 165px;
@@ -30,12 +30,12 @@ body {
   flex-direction: column;
 }
 
-/*header*/
-
+/*HEADER*/
+/*header-info*/
 .header-info {
     justify-content: space-between;
-    margin-top: 17px;
-    margin-bottom: 17px;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 .header-info-left {
@@ -47,18 +47,41 @@ body {
 }
 
 .header-info-address {
-    padding-right: 46px;
+    padding: 8px 46px 8px 0px;
     border-right: 1px solid var(--border-color);
     border-color: var(--border-color);   
 }
 
+.header-info-clock {
+    padding: 8px 0px 8px 0px;
+}
+
 .header-info-number {
+    padding: 8px 0px 8px 0px;
     width: 124px;
 }
 
+.drop-header {
+    padding: 8px 0px 8px 0px;
+    color:var(--font-color);
+    opacity: 0.7;
+}
+
+.clock-header {
+    padding: 8px 0px 8px 0px;
+    color:var(--font-color);
+    opacity: 0.7;
+}
+
+.phone-header {
+    padding: 8px 0px 8px 0px;
+    color:var(--font-color);
+    opacity: 0.7;
+}
+
+/*header-menu*/
 .logo-header {
-    position: relative;
-    left:-11px;
+    margin-left: -10px;
 }
 .menu {
     justify-content: space-between;
@@ -83,10 +106,9 @@ body {
     border-radius: 5px;
 }
 
-/*slider*/
+/*SLIDER*/
 
 .slider {
-    position: relative;
     justify-content: space-between;
 }
 
@@ -115,15 +137,7 @@ body {
 }
 
 /*CARD-SERVICE*/
-
-/*card-spare*/
-
-.card {
-    align-items: center;
-    padding: 29px 197px 58px 197px;
-    row-gap: 48px;
-}
-
+/*card-header*/
 .card-header {
     align-items: center;
     row-gap: 18px;
@@ -135,6 +149,14 @@ body {
     height: 48px;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+
+/*card-spare*/
+.card {
+    align-items: center;
+    padding: 29px 197px 58px 197px;
+    row-gap: 48px;
 }
 
 .card-text {
@@ -160,7 +182,6 @@ body {
 }
 
 .card-info {
-    position: absolute;
     left: 28px;
     row-gap: 15px;
 }
@@ -209,14 +230,235 @@ body {
     margin-bottom: 15px;
 }
 
+/*BLOCK-CARS*/
+.block-cars {
+    padding: 63px 0px 66px 0px;
+    column-gap: 70px;
+}
+
+/*block-cars-info*/
+.block-cars-info {
+    max-width: fit-content;
+    row-gap: 16px;
+}
+
+.cars-info-head {
+    width: 540px;
+    height: 116px;
+    margin: 0;
+}
+
+.cars-info-text {
+    width: 576px;
+    height: 158;
+    row-gap: 10px;
+}
+
+/*block-cars-logo*/
+.block-cars-logo {
+    margin-top: -4px;
+    grid-column-gap: 14px;
+    grid-row-gap: 30px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+.scana-logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+
+.volvo-logo {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.man-logo {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.daf-logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.renault-logo {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+}
+
+.block-map {
+    background-color: #F4F4F4;
+    align-self: center;
+    width: 1440px;
+}
+
+.block-map-info {
+    max-width: fit-content;
+    row-gap: 41px;
+    padding: 96px 21px 188px 165px;
+}
+
+.map-info-head {
+    width: 506px;
+    height: 58px;
+    margin: 0;
+}
+
+.map-info-text {
+    width: 540px;
+    height: 158;
+    row-gap: 10px;
+}
+
+
+/*LOGIN*/
+
+.login {
+    background-image: url("../img/bg-login.png");
+    height: 687px;
+    width: 1440px;
+    align-self: center;
+    justify-content: right;
+    padding: 70px 165px 70px 0px;
+}
+
+.block-login {
+    background-color: var(--bg-white-color);
+    padding: 39px 71px 40px 71px;
+    row-gap: 36px;
+    border-radius: 15px;
+}
+
+.login-info {
+    row-gap: 16px;
+}
+
+.login-info-head {
+    width: 467px;
+    height: 136px;
+    margin: 0;
+}
+
+.login-info-text {
+    width: 467px;
+    height: 44px;
+    margin: 0;
+}
+
+.login-fields {
+    row-gap: 23px;
+}
+
+.fields-wind {
+    padding: 19px 21px 18px 22px;
+    background-color: #f0f2ff;
+    border-radius: 8px;
+    justify-self:left;
+    margin: 0;
+}
+
+.login-button {
+    text-decoration: none;
+    padding: 18px 186px 18px 185px;
+    border-radius: 8px;
+    background-color: var(--bg-button-color);
+}
+/*DOWN*/
+.down {
+    align-self: center;
+    width: 1440px;
+    height: fit-content;
+    padding: 50px 158px 0px 158px;
+    background-color: #1A1A1A;
+}
+
+.down-info {
+    justify-content:space-between;
+    column-gap: 150px;
+    padding-bottom: 68px;
+}
+
+.down-left-logo {
+    justify-content: space-between;
+    column-gap: 76px;
+}
+
+.logo-white {
+    align-self:flex-start;
+    margin-left: -12px;
+}
+
+.down-left-info {
+    row-gap: 8px;
+}
+
+.down-header {
+    margin: 0px 0px 7px 0px;
+}
+
+.down-text {
+    margin: 0;
+}
+
+.contacts-number {
+    row-gap: 8px;
+}
+
+.down-text-whats {
+    
+    margin: 12px 0px 0px 0px;
+}
+
+.down-text-drop {
+    margin: 8px 0px 0px 0px;
+}
+
+.down-whats, .down-drop, .down-face, .down-inst {
+    color: var(--bg-white-color);
+}
+
+.contacts-links {
+    row-gap: 18px;
+}
+
+.down-header-link {
+    margin: 0;
+}
+
+.down-link-face, .down-link-inst {
+    margin: 0;
+}
+
+.underground {
+    padding: 19px 0px 19px 0px;
+    border-top: 1px solid #474747;
+}
+
+.under-text {
+    margin: 0;
+}
 /*fonts*/
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
     font-family: "fontello";
     font-style: normal;
     font-weight: normal;
-    color: var(--font-color);
     
+
     display: inline-block;
     text-decoration: inherit;
     width: 1em;
@@ -246,7 +488,6 @@ body {
 }
 .icon-drop:before { 
     content: '\e804';
-    color:var(--font-color);
 } 
 .icon-instagram:before { 
     content: '\e805'; 
@@ -390,5 +631,5 @@ body {
     line-height: 24px;
     color: #D9DBE1;
 }
-/*arrangement of elements*/
+
 

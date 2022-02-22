@@ -1,94 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF=8">
-        <link rel="stylesheet" href="css/font-style.css">
-        <link rel="stylesheet" href="css/style-html.css">
-        <title>Truck Srvice</title>
-    </head>
-    <body class="flex col">
-        <header class="flex col">
-                <div class="flex sp-bet header-info">
-                    <div class="flex header-info-left">
-                        <i class="icon-drop"></i>
-                        <div class="header-info-address flex col">
-                            <span class="inter-14-reg">Ваш Адрес:</span>
-                            <span class="inter-14-medium">г. Бишкек, ул. Ляляля 69</span>
-                        </div>
-                        <i class="icon-clock"></i>
-                        <div class="header-info-clock flex col">
-                            <span class="inter-14-reg">График работы:</span>
-                            <span class="inter-14-medium">С 8:00 до 22:00 без выходных</span>
-                        </div>
-                    </div>
-                    <div class="header-info-right flex">
-                        <i class="icon-phone"></i>
-                        <span class="inter-14-medium header-info-number">+7 (708) 51 51 518 +7 (700) 51 51 518</span>
-                    </div>
-                </div>
-                <div class="menu flex">
-                    <div class="menu-left flex">
-                        <img class="logo-header" src="img/logo.svg">
-                        <div class="menu-link flex">
-                            <a class="text-link inter-16-medium" href="/">Это мы</a>
-                            <a class="text-link inter-16-medium" href="/">Почему мы?</a>
-                            <a class="text-link inter-16-medium" href="/">А вот поэтому</a>
-                            <a class="text-link inter-16-medium" href="/">Контакты</a>
-                        </div>
-                    </div>
-                    <a class="menu-button inter-16-semibolt" href="/">Заказать звонок</a>
-                </div>
-        </header>
-        <div class="slider flex">
-            <div class="slider-info flex col">
-                <h1 class="slider-header inter-60-bolt">Affordable truck service</h1>
-                <span class="slider-text inter-18-reg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, 
-                    lectus sit lorem id integer.</span>
-                <a class="slider-button inter-18-semibolt" href="/">Чета сделать</a>
-            </div>
-            <img class="truck-slider" src="img/trucks-slider.png">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF=8">
+    <link rel="stylesheet" href="css/font-style.css">
+    <link rel="stylesheet" href="css/style-html.css">
+    <title>Truck Srvice</title>
+  </head>
+  <body class="flex col">
+    <!--header-->
+    <header class="flex col">
+      <!--header-info-up-->
+      <div class="flex sp-bet header-info">
+        <div class="flex header-info-left">
+          <i class="icon-drop drop-header"></i>
+          <div class="header-info-address flex col">
+            <span class="inter-14-reg">Ваш Адрес:</span>
+            <span class="inter-14-medium">г. Бишкек, ул. Ляляля 69</span>
+          </div>
+          <i class="icon-clock clock-header"></i>
+          <div class="header-info-clock flex col">
+            <span class="inter-14-reg">График работы:</span>
+            <span class="inter-14-medium">С 8:00 до 22:00 без выходных</span>
+          </div>
         </div>
-        <div class="card flex col">
-            <div class="card-header flex col">
-                <h1 class="inter-40-bolt text-card-head">Любые услуги за ваши денишки</h1>
-                <span class="inter-18-reg card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Nunc odio in et, lectus sit lorem id integer.
-                </span>
-            </div>
-            <div class="card-service">
-                <div class="card-item flex">
-                    <div class="card-info flex col">
-                        <h1 class="inter-24-bolt item-header">Б/у запчасти для грузовых авто из Европы</h1>
-                        <span class="inter-16-reg item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                             Nunc odio in et, lectus sit lorem id integer.</span>
-                    </div>
-                    <img src="img/spare-parts.png" class="spareparts-img">
-                </div>
-                <div class="card-item flex">
-                    <div class="card-info flex col">
-                        <h1 class="inter-24-bolt item-header">Автомойка грузовых и легковых авто</h1>
-                        <span class="inter-16-reg item-text text-washing">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                             Nunc odio in et, lectus sit lorem id integer.</span>
-                    </div>
-                    <img src="img/washing.png" class="spareparts-img img-washing">
-                </div>
-                <div class="card-item flex">
-                    <div class="card-info flex col">
-                        <h1 class="inter-24-bolt item-header header-access">Магазин аксессуаров</h1>
-                        <span class="inter-16-reg item-text text-washing">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                             Nunc odio in et, lectus sit lorem id integer.</span>
-                    </div>
-                    <img src="img/accessories.png" class="spareparts-img img-access">
-                </div>
-                <div class="card-item flex">
-                    <div class="card-info flex col">
-                        <h1 class="inter-24-bolt item-header">Пункт замены масла легковых авто</h1>
-                        <span class="inter-16-reg item-text text-washing">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                             Nunc odio in et, lectus sit lorem id integer.</span>
-                    </div>
-                    <img src="img/oil.png" class="spareparts-img img-oil">
-                </div>
-            </div>
+        <div class="header-info-right flex">
+          <i class="icon-phone phone-header"></i>
+          <span class="inter-14-medium header-info-number">+7 (708) 51 51 518 +7 (700) 51 51 518</span>
         </div>
-    </body>
+      </div>
+      <!--header-menu-down-->
+      <div class="menu flex">
+        <div class="menu-left flex">
+          <img class="logo-header" src="img/logo.svg" alt="HTML5">
+          <div class="menu-link flex">
+            <a class="text-link inter-16-medium" href="/">Это мы</a>
+            <a class="text-link inter-16-medium" href="/">Почему мы?</a>
+            <a class="text-link inter-16-medium" href="/">А вот поэтому</a>
+            <a class="text-link inter-16-medium" href="/">Контакты</a>
+          </div>
+        </div>
+        <a class="menu-button inter-16-semibolt" href="/">Заказать звонок</a>
+      </div>
+    </header>
+    <!--slider-->
+    <div class="slider flex">
+      <!--slider-info-left-->
+      <div class="slider-info flex col">
+        <h1 class="slider-header inter-60-bolt">Affordable truck service</h1>
+        <span class="slider-text inter-18-reg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, 
+          lectus sit lorem id integer.
+        </span>
+        <a class="slider-button inter-18-semibolt" href="/">Чета сделать</a>
+      </div>
+      <!--truck-img-->
+      <img class="truck-slider" src="img/trucks-slider.png" alt="HTML5">
+    </div>
+    <!--block-card-->
+    <div class="card flex col">
+      <!--card-header-->
+      <div class="card-header flex col">
+        <h1 class="inter-40-bolt text-card-head">Любые услуги за ваши денишки</h1>
+        <span class="inter-18-reg card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Nunc odio in et, lectus sit lorem id integer.
+        </span>
+      </div>
+      <!--card-service-->
+      <div class="card-service">
+        <!--card-up-left-->
+        <div class="card-item flex">
+          <div class="card-info flex col">
+            <h1 class="inter-24-bolt item-header">Б/у запчасти для грузовых авто из Европы</h1>
+            <span class="inter-16-reg item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Nunc odio in et, lectus sit lorem id integer.
+            </span>
+          </div>
+          <img src="img/spare-parts.png" class="spareparts-img" alt="HTML5">
+        </div>
+        <!--card-up-right-->
+        <div class="card-item flex">
+          <div class="card-info flex col">
+            <h1 class="inter-24-bolt item-header">Автомойка грузовых и легковых авто</h1>
+            <span class="inter-16-reg item-text text-washing">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Nunc odio in et, lectus sit lorem id integer.
+            </span>
+          </div>
+          <img src="img/washing.png" class="spareparts-img img-washing" alt="HTML5">
+        </div>
+        <!--card-down-left-->
+        <div class="card-item flex">
+          <div class="card-info flex col">
+            <h1 class="inter-24-bolt item-header header-access">Магазин аксессуаров</h1>
+            <span class="inter-16-reg item-text text-washing">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Nunc odio in et, lectus sit lorem id integer.
+            </span>
+          </div>
+          <img src="img/accessories.png" class="spareparts-img img-access" alt="HTML5">
+        </div>
+        <!--card-down-right-->
+        <div class="card-item flex">
+          <div class="card-info flex col">
+            <h1 class="inter-24-bolt item-header">Пункт замены масла легковых авто</h1>
+            <span class="inter-16-reg item-text text-washing">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Nunc odio in et, lectus sit lorem id integer.
+            </span>
+          </div>
+          <img src="img/oil.png" class="spareparts-img img-oil" alt="HTML5">
+        </div>
+      </div>
+    </div>
+    <!--block-logo-cars-->
+    <div class="flex block-cars">
+      <!--block-cars-info-->
+      <div class="flex col block-cars-info">
+        <h1 class="cars-info-head inter-48-bolt">У вас вопрос кто мы а кто мы блин</h1>
+        <div class="cars-info-text flex col">
+          <span class="inter-18-reg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nunc odio in et, lectus sit lorem id integer.
+          </span>
+          <span class="inter-18-reg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nunc odio in et, lectus sit lorem id integer.
+          </span>
+          <span class="inter-18-reg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nunc odio in et, lectus sit lorem id integer.
+          </span>
+        </div>
+      </div>
+      <!--block-cars-logo-->
+      <div class="block-cars-logo">
+        <img src="img/scana-logo.svg" class="scana-logo" alt="HTML5">
+        <img src="img/volvo-logo.svg" class="volvo-logo" alt="HTML5">
+        <img src="img/man-logo.svg" class="man-logo" alt="HTML5">
+        <img src="img/daf-logo.svg" class="daf-logo" alt="HTML5">
+        <img src="img/renault-logo.png" class="renault-logo" alt="HTML5">
+      </div>
+    </div>
+    <!--block-map-->
+    <div class="block-map flex">
+      <div class="block-map-info flex col">
+        <h1 class="map-info-head inter-48-bolt">Где мы?</h1>
+        <div class="map-info-text flex col">
+          <span class="inter-18-reg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nunc odio in et, lectus sit lorem id integer.
+          </span>
+          <span class="inter-18-reg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nunc odio in et, lectus sit lorem id integer.
+          </span>
+          <span class="inter-18-reg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nunc odio in et, lectus sit lorem id integer.
+          </span>
+        </div>
+      </div>
+      <img src="img/google-maps.png" alt="HTML5">
+    </div>
+    <!--login-->
+    <div class="login flex">
+      <div class="block-login flex col">
+        <div class="login-info flex col">
+          <h1 class="login-info-head inter-56-bolt">Остались вопросы?</h1>
+          <span class="login-info-text inter-18-reg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           Nunc odio in et, lectus sit lorem id integer.
+          </span>
+        </div>
+        <div class="login-fields flex col">
+          <p class="fields-wind inter-16-reglogo">Имя</p>
+          <p class="fields-wind inter-16-reglogo">Номер телефона</p>
+        </div>
+        <a class="login-button inter-18-semibolt" href="/"> Отправить</a>
+      </div>
+    </div>
+    <!--down-->
+    <div class="down flex col">
+      <div class="down-info flex">
+        <div class="down-left-logo flex">
+          <img src="img/ug-logo.svg" class="logo-white" alt="HTML5">
+          <div class="down-left-info flex col">
+            <h1 class="down-header inter-20-medium">Главная</h1>
+            <p class="down-text inter-16-regwhite">Это мы</p>
+            <p class="down-text inter-16-regwhite">Кто мы</p>
+            <p class="down-text inter-16-regwhite">Почему мы?</p>
+            <p class="down-text inter-16-regwhite">Остались вопросы</p>
+            <p class="down-text inter-16-regwhite">Контакты</p>
+          </div>
+        </div>
+        <div class="down-contacts flex">
+          <div class="contacts-number flex col">
+            <h1 class="down-header inter-20-medium">Контакты</h1>
+            <p class="down-text inter-16-regwhite">+7 (708) 802 88 88</p>
+            <p class="down-text inter-16-regwhite">+7 (708) 803 88 88</p>
+            <p class="down-text inter-16-regwhite">+7 (708) 51 51 518</p>
+            <p class="down-text inter-16-regwhite">+7 (700) 51 51 518</p>
+            <p class="down-text-whats inter-16-regwhite"><i class="icon-whatsapp down-whats"></i>+7 (708) 802 88 88</p>
+            <p class="down-text-drop inter-16-regwhite"><i class="icon-drop down-drop"></i>г. Бишкек, ул. Ляляля 69</p>
+          </div>
+          <div class="contacts-links flex col">
+            <h1 class="down-header-link inter-20-medium">Следите за нами</h1>
+            <p class="down-link-face inter-16-mediumwhite"><i class="icon-facebook down-face"></i>truck_service_ofFicIaL</p>
+            <p class="down-link-inst inter-16-mediumwhite"><i class="icon-instagram down-inst"></i>truck_service_ofFicIaL</p>
+          </div>
+        </div>
+      </div>
+      <div class="underground">
+        <p class="under-text inter-12-reg">Copyright © Truck Services 2022. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
 </html>
