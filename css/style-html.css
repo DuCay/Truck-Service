@@ -89,7 +89,7 @@ body {
     border-top: 1px solid var(--border-color);
 }
 .menu-left {
-   align-items: center;
+    align-items: center;
 }
 .menu-link {
     column-gap: 46px;
