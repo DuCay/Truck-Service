@@ -99,11 +99,22 @@ body {
 .text-link {
     text-decoration: none;
 }
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
 .menu-button {
-    text-decoration: none;
-    padding: 11px 23px 11px 23px;
+    width: 179px;
+    height: 40px;
     background-color: var(--bg-button-color);
     border-radius: 5px;
+    border: none;
+}
+
+.button:hover {
+    opacity: 0.7;
+    cursor: pointer;
 }
 
 /*SLIDER*/
@@ -129,11 +140,11 @@ body {
 }
 
 .slider-button {
-    padding: 11px 37px 11px 37px;
+    width: 196px;
+    height: 52px;
     background-color: var(--bg-button-color);
-    text-decoration: none;
     border-radius: 8px;
-    max-width:fit-content;
+    border: none;
 }
 
 /*CARD-SERVICE*/
@@ -364,18 +375,52 @@ body {
 }
 
 .fields-wind {
-    padding: 19px 21px 18px 22px;
+    outline: none;
+    padding: 18px 21px 19px 22px;
     background-color: #f0f2ff;
+    border:0;
     border-radius: 8px;
-    justify-self:left;
     margin: 0;
 }
 
+.wind-font {
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color:var(--font-color);
+}
+
+::-webkit-input-placeholder { 
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--bg-font-login);
+}
+
+::-moz-placeholder {
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--bg-font-login);
+}
+
+:-ms-input-placeholder {
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--bg-font-login); 
+}
+
 .login-button {
-    text-decoration: none;
-    padding: 18px 186px 18px 185px;
-    border-radius: 8px;
+    width: 496px;
+    height: 66px;
     background-color: var(--bg-button-color);
+    border-radius: 8px;
+    border: none;
 }
 /*DOWN*/
 .down {
@@ -411,7 +456,17 @@ body {
 }
 
 .down-text {
+    text-decoration: none;
     margin: 0;
+}
+
+.down-link:hover {
+    text-decoration: underline;
+}
+
+.down-contacts {
+    column-gap: 150px;
+    justify-content: space-between;
 }
 
 .contacts-number {
@@ -439,8 +494,22 @@ body {
     margin: 0;
 }
 
-.down-link-face, .down-link-inst {
+.down-link-face {
+    text-decoration: none;
     margin: 0;
+}
+
+.down-link-inst {
+    text-decoration: none;
+    margin: 0;
+}
+
+.down-link-face:hover {
+    text-decoration: underline;
+}
+
+.down-link-inst:hover {
+    text-decoration: underline;
 }
 
 .underground {
