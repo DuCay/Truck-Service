@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'fontello';
-    src: url('../fonts/fontello.eot?15297950');
-    src: url('../fonts/fontello.eot?15297950#iefix') format('embedded-opentype'),
-         url('../fonts/fontello.woff2?15297950') format('woff2'),
-         url('../fonts/fontello.woff?15297950') format('woff'),
-         url('../fonts/fontello.ttf?15297950') format('truetype'),
-         url('../fonts/fontello.svg?15297950#fontello') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: "icomoon";
+	src: url("../index.html");
+	src: url("../fonts/icomoon.eot") format("embedded-opentype"),
+	  url("../fonts/icomoon.ttf") format("truetype"),
+	  url("../fonts/icomoon.woff") format("woff"),
+	  url("../fonts/icomoon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
   }
 
 @font-face {

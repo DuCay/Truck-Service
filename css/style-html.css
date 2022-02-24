@@ -315,6 +315,7 @@ body {
     background-color: #F4F4F4;
     align-self: center;
     width: 1440px;
+    justify-content: space-between;
 }
 
 .block-map-info {
@@ -465,7 +466,7 @@ body {
 }
 
 .down-contacts {
-    column-gap: 150px;
+    column-gap: 140px;
     justify-content: space-between;
 }
 
@@ -474,20 +475,37 @@ body {
 }
 
 .down-text-whats {
-    
     margin: 12px 0px 0px 0px;
 }
 
 .down-text-drop {
-    margin: 8px 0px 0px 0px;
+    margin: 8px 0px 8px 0px;
 }
 
+.link-facebook-block, .link-instagram-block {
+    column-gap: 9px;
+}
 .down-whats, .down-drop, .down-face, .down-inst {
     color: var(--bg-white-color);
 }
 
+.down-face, .down-inst {
+    margin-top: 2px;
+}
+
+.down-whats {
+   margin-right: 5px;
+   margin-top: 14px;
+}
+
+.down-drop {
+    margin-right: 5px;
+   margin-top: 11px;
+}
+
 .contacts-links {
     row-gap: 18px;
+    width: fit-content;
 }
 
 .down-header-link {
@@ -522,44 +540,44 @@ body {
 }
 /*fonts*/
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "icomoon";
+  font-style: normal;
+  font-weight: normal;
 
-    display: inline-block;
-    text-decoration: inherit;
-    width: 1em;
-    margin-right: .2em;
-    text-align: center;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1em;
-    margin-left: .2em;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0.2em;
 
-  
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-phone:before { 
-    content: '\e800'; 
+    content: '\e902';
+    width: 20px;
+    height: 20px;
 } 
 .icon-clock:before { 
-    content: '\e801'; 
+    content: '\e901'; 
 }
 .icon-whatsapp:before { 
-    content: '\e802'; 
+    content: '\e95a'; 
 }
 .icon-facebook:before { 
-    content: '\e803'; 
+    content: '\e903'; 
 }
 .icon-drop:before { 
-    content: '\e804';
+    content: '\e900';
 } 
 .icon-instagram:before { 
-    content: '\e805'; 
+    content: '\e959'; 
 }
 
 
